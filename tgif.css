@@ -1,0 +1,56 @@
+body{
+    background: rgb(255, 255, 255);
+}
+
+h1{
+    color: rgb(66, 66, 66);
+    font-size: 24pt;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    font-weight: normal;
+    display: flex;
+    font-family: Arial;
+}
+
+p{
+    color: rgb(110, 110, 110);
+    font-size: 14pt;
+    margin-top: 0px;
+    display: inline-block;
+    font-family: Arial;
+    vertical-align: bottom;
+}
+
+select{
+    background-color: white;
+    color: rgb(110, 110, 110);
+    font-size: 14pt;
+    font-family: Arial;
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: top;
+    text-align: right;
+}
+
+.map{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    margin-top: -35px;
+    border: 1px rgb(66, 66, 66) solid;
+    background: rgb(231, 230, 230);
+    display: flex;
+}
+
+.space{
+    margin-top: 15px;
+}
+
+.leftspace{
+    margin-left: 15px;
+}
+
+.separator{
+    margin-left: 5px;
+}
+

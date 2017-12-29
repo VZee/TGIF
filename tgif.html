@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <title>Localized Beer and Distillery Finder</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type = "text/javascript" src = "https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyAbr8__LLnqcUjioJmltTlRqHI0FCEz7dw"></script>
+    <script src="tgif.js"></script>
+    <link rel="stylesheet" href="tgif.css">
+	</head>
+	<body>
+    <h1>Local Beer and Distillery Finder</h1>
+    <div class = "space"></div>
+    <div class= "space">
+      <select id="distance" name="distance" onchange="newDistance()">
+        <option value="5" id = "five">5</option>
+        <option value="10" id = "ten">10</option>
+        <option value="20" id = "twenty">20</option>
+      </select>
+			<p class = "separator">miles</p><p class = "separator">from</p>
+			<p class = "separator" id = "city">Loading</p>
+		  <div class = "map" id = "map">Loading</div>
+  </div>
+	</body>
+</html>
